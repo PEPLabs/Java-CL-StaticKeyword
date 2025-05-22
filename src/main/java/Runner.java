@@ -4,9 +4,9 @@ public class Runner {
      * This challenge is about interacting with static variables.
      *
      * Your task is simply to change the variable global_var from Class to the value of 'in' given in the parameters.
-     * As you do so, notice that you're interacting with the CLASS and not an OBJECT. This is because due to the static
-     * keyword. The static keyword causes methods and variables to belong to the class definition rather than an
-     * object. We've seen Static used plenty of times: the main method is static because no objects could possibly
+     * As you do so, notice that you're interacting with the CLASS and not an OBJECT. This is due to the static keyword.
+     * The static keyword causes methods and variables to belong to the class definition rather than an object. 
+     * We've seen Static used plenty of times: the main method is static because no objects could possibly
      * exist before the program starts (but classes can), System.out.println is a static method as we never have to
      * create a System object, and variables like Integer.MAX_VALUE or Math.PI are static variables because it wouldn't
      * make sense to create a Integer or Math object just to access unchanging mathematical values.
